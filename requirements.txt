@@ -1,0 +1,12 @@
+# Para la Fase de OCR
+pytesseract
+opencv-python-headless
+deskew
+
+# Para la Fase de Extracción con LLM
+langextract
+google-generativeai # Dependencia común para usar Gemini con LangExtract
+
+# Nota: Instalar Tesseract OCR a nivel de sistema operativo es un prerrequisito.
+# En Debian/Ubuntu: sudo apt-get install tesseract-ocr
+# En macOS (con Homebrew): brew install tesseract

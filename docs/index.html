@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaqiaru Yatiri | Diccionario Aymara de Bertonio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Jaqiaru Yatiri</h1>
+        <h2>Vocabulario de la Lengua Aymara (Ludovico Bertonio, 1612)</h2>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar un término en aymara o español...">
+        </div>
+        <div id="results-container">
+            <p class="info">Cargando diccionario... Por favor, espere.</p>
+        </div>
+     </main>
+    <footer>
+        <p>Proyecto de Digitalización de Código Abierto | Jaqiaru Yatiri</p>
+    </footer>
+
+    <!-- Librería de búsqueda Lunr.js -->
+    <script src="https://unpkg.com/lunr/lunr.min.js"></script>
+    <!-- Script principal de la aplicación -->
+    <script src="js/main.js"></script>
+</body>
+</html>

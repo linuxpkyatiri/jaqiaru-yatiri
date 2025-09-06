@@ -1,0 +1,21 @@
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+.env
+
+# Archivos de caché y compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de datos grandes (ejemplo, se recomienda usar Git LFS si es necesario)
+# data/source/*.pdf
+
+# Archivos de dependencias de Node
+node_modules/
